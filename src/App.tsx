@@ -1,14 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './styles/global.css'
+import './styles/theme.css'
+
+import { Heading } from './components/Heading'
 
 function App() {
   return (
     <>
-      <h1>Chornos Pomodoro</h1>
+      <Heading />
     </>
   )
 }
 
-export default App
+export { App }
